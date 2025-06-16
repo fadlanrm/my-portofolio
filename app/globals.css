@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+}
+.animate-floatY {
+  animation: floatY 3s ease-in-out infinite;
+}
+@keyframes floatY2 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(30px); }
+}
+.animate-floatY2 {
+  animation: floatY2 4s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-3px); }
+  20%, 40%, 60%, 80% { transform: translateX(3px); }
+}
+.animate-shake {
+  animation: shake 0.5s linear infinite;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+}
+
+@keyframes shake-interval {
+  0% { transform: translateX(0); }
+  2.5%, 7.5%, 12.5%, 17.5%, 22.5% { transform: translateX(-3px); }
+  5%, 10%, 15%, 20% { transform: translateX(3px); }
+  25%, 100% { transform: translateX(0); }
+}
+.animate-shake-interval {
+  animation: shake-interval 4s linear infinite;
+}
+
+.delay-0 { animation-delay: 0s; }
+.delay-1 { animation-delay: 1.2s; }
+.delay-2 { animation-delay: 2.4s; }
+
+@keyframes dash-move {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
