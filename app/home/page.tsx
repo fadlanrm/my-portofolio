@@ -1,6 +1,6 @@
 export default function HomePage() {
   return (
-<<<<<<< HEAD
+
     <main className="max-w-7xl mx-auto flex items-center min-h-[80vh] px-8">
       {/* Kiri: Teks */}
       <div className="flex-1 flex flex-col justify-center gap-6">
@@ -51,7 +51,7 @@ export default function HomePage() {
           src="/profile.png"
           alt="Profile"
           className="w-[420px] h-[520px] object-cover grayscale relative z-10"
-=======
+
     <main className="max-w-7xl mx-auto min-h-[80vh] flex items-center px-8">
       {/* Kiri: Teks */}
       <div className="flex-1 flex flex-col justify-center gap-4">
@@ -100,7 +100,7 @@ export default function HomePage() {
           src="/profile.png"
           alt="Profile"
           className="w-[340px] h-[440px] object-cover grayscale relative z-10 shadow-xl"
->>>>>>> 35b1c93 (feat: update tampilan landing page)
+
         />
       </div>
     </main>

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const certificates = [
   {
     name: "CCNA: Switching, Routing, and Wireless Essentials",
@@ -14,7 +14,7 @@ const certificates = [
     year: "2023",
     credential: "https://www.credly.com/badges/48cc1186-68d5-4269-8fd3-642c5e97aeb2/public_url",
     file: null,
-=======
+
 const certificatesLeft = [
   {
     name: "CCNA: Switching, Routing, and Wireless Essentials",
@@ -30,27 +30,27 @@ const certificatesLeft = [
     issued: "Aug. 2023",
     credential: "https://www.credly.com/badges/48cc1186-68d5-4269-8fd3-642c5e97aeb2/public_url",
     certificate: "/certificate/cert-ccna-enterprisenetworking1.pdf",
->>>>>>> 35b1c93 (feat: update tampilan landing page)
+
     logo: "/logo-cisco.png",
   },
   {
     name: "CyberOps Associate",
-<<<<<<< HEAD
+
     description: "has a broad understanding of Security Operations.",
     year: "2024",
     credential: "https://www.credly.com/badges/7d62f830-4a87-4e8d-9d98-72484ffee33c",
     file: null,
-=======
+
     org: "Cisco Networking Academy",
     issued: "Jul. 2024",
     credential: "https://www.credly.com/badges/7d62f830-4a87-4e8d-9d98-72484ffee33c",
     certificate: "/certificate/cert-ccna-cyberops.pdf",
->>>>>>> 35b1c93 (feat: update tampilan landing page)
+
     logo: "/logo-cisco.png",
   },
   {
     name: "Network Security",
-<<<<<<< HEAD
+
     description: "understands network security and has skills in threat mitigation measures to protect data assets and network systems from attack, such as configuring device hardening, firewalls, intrusion prevention systems, and virtual private networks.",
     year: "2024",
     credential: "https://www.credly.com/badges/9e59cefd-b842-48bf-a241-3d0fd3a012b3",
@@ -72,7 +72,7 @@ const certificatesLeft = [
     pdf: "/Sertifikat Magang - M. Fadlan.pdf", // tambahkan properti pdf
     file: "/sertifikat-magang.png",
     logo: "/logo-kemdikbud.png",
-=======
+
     org: "Cisco Networking Academy",
     issued: "Sep. 2024",
     credential: "https://www.credly.com/badges/9e59cefd-b842-48bf-a241-3d0fd3a012b3",
@@ -105,13 +105,13 @@ const publications = [
     published: "Des. 2024",
     link: "https://ejurnal.methodist.ac.id/index.php/tamika/article/view/3067",
     logo: "/logo-tamika.png",
->>>>>>> 35b1c93 (feat: update tampilan landing page)
+
   },
 ];
 
 export default function CertificatePage() {
   return (
-<<<<<<< HEAD
+
     <main className="max-w-3xl mx-auto min-h-[70vh] px-4 py-16">
       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-10">
         <span className="text-pink-600">My</span> Certificates
@@ -159,7 +159,7 @@ export default function CertificatePage() {
                 </div>
                 {/* Hanya tampilkan gambar jika ada file dan bukan internship */}
                 {cert.file && !cert.pdf && (
-=======
+
     <main className="max-w-6xl mx-auto min-h-[80vh] px-8 py-12">
       <div className="flex items-center mb-10">
         <h2 className="text-2xl font-semibold tracking-wide text-gray-900 mb-2 animate-shake-interval delay-0">
@@ -177,12 +177,12 @@ export default function CertificatePage() {
                 <div className="text-gray-700 text-sm">{cert.org}</div>
                 <div className="text-gray-500 text-xs mb-2">Issued {cert.issued}</div>
                 <div className="flex gap-2">
->>>>>>> 35b1c93 (feat: update tampilan landing page)
+
                   <a
                     href={cert.credential}
                     target="_blank"
                     rel="noopener noreferrer"
-<<<<<<< HEAD
+
                     className="block"
                   >
                     <img
@@ -196,7 +196,7 @@ export default function CertificatePage() {
             </div>
           </div>
         ))}
-=======
+
                     className="bg-pink-400 text-white text-xs px-3 py-1 rounded-full font-semibold shadow hover:bg-pink-500 transition w-28 text-center"
                   >
                     Credentials
@@ -265,7 +265,7 @@ export default function CertificatePage() {
             ))}
           </div>
         </section>
->>>>>>> 35b1c93 (feat: update tampilan landing page)
+
       </div>
     </main>
   );

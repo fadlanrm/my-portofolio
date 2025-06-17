@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-<<<<<<< HEAD
+
     <main className="max-w-2xl mx-auto py-16 px-4 flex flex-col items-center">
       <section className="w-full bg-transparent p-8 rounded-xl flex flex-col items-center border-l-4 border-r-4 border-pink-600">
         <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
@@ -42,7 +42,7 @@ export default function ContactPage() {
           </a>
         </div>
       </section>
-=======
+
     <main className="relative min-h-[80vh] flex flex-col items-center justify-center px-4 py-12 bg-white overflow-hidden">
       {/* SVG Abstract Lines Background */}
       <svg
@@ -171,7 +171,7 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
->>>>>>> 35b1c93 (feat: update tampilan landing page)
+
     </main>
   );
 }
