@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Portofolio",
   description: "Portofolio Jems Kemerun",
 };
-=======
+
 "use client";
 
 import type { Metadata } from "next";
@@ -53,14 +53,14 @@ function Navbar() {
     </nav>
   );
 }
->>>>>>> 35b1c93 (feat: update tampilan landing page)
+
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-<<<<<<< HEAD
+
       <body className="bg-[#f8fafd] antialiased">
         {/* Navbar */}
         <header className="w-full border-b bg-transparent">
@@ -83,7 +83,7 @@ export default function RootLayout({
           </nav>
         </header>
         {children}
-=======
+
       <body className="bg-white antialiased">
         <header className="w-full border-b border-black bg-white">
           <Navbar />
@@ -94,7 +94,7 @@ export default function RootLayout({
             @2025 - Made by fadlanrm_
           </div>
         </footer>
->>>>>>> 35b1c93 (feat: update tampilan landing page)
+
       </body>
     </html>
   );
