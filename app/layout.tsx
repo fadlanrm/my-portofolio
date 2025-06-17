@@ -16,9 +16,9 @@ export default function RootLayout({
         <header className="w-full border-b bg-transparent">
           <Navbar />
         </header>
-        {children}
+        <main className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8">{children}</main>
         <footer className="w-full border-t border-black bg-white py-4 mt-8">
-          <div className="max-w-7xl mx-auto px-8 text-left text-black font-serif text-lg">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 text-left text-black font-serif text-base md:text-lg">
             @2025 - Made by fadlanrm_
           </div>
         </footer>
