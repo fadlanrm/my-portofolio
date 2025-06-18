@@ -62,9 +62,9 @@ export default function ContactPage() {
                 <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#000" strokeWidth="2" d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7zm0 0 9 6 9-6" /></svg>
               </span>
               <div className="flex flex-col">
-                <span className="text-black text-xs sm:text-sm">fadlanmuhammad163@gmail.com</span>
+                <span className="text-black text-xs sm:text-sm">privatemailfadlan@gmail.com</span>
                 <a
-                  href="mailto:fadlanmuhammad163@gmail.com"
+                  href="mailto:privatemailfadlan@gmail.com"
                   className="inline-block mt-1 bg-pink-400 text-white text-xs px-4 sm:px-5 py-1 rounded-full font-semibold shadow hover:bg-pink-500 transition w-fit"
                 >
                   EMAIL
