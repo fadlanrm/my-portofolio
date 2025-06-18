@@ -21,21 +21,21 @@ export default function Navbar() {
           className="h-10 w-10 sm:h-14 sm:w-14 object-contain rounded-full border border-gray-300 bg-white"
         />
       </div>
-      <div className="flex flex-wrap gap-4 sm:gap-8 md:gap-12">
-        {menu.map((item) => (
-          <Link
-            key={item.href}
-            href={item.href}
-            className={`font-bold text-base sm:text-lg uppercase tracking-wide drop-shadow-md ${
-              pathname === item.href
-                ? "text-pink-600"
-                : "text-black hover:text-pink-600"
-            }`}
-          >
-            {item.label}
-          </Link>
-        ))}
-      </div>
+      <div className="flex ml-auto gap-4 sm:gap-8 md:gap-12">
+  {menu.map((item) => (
+    <Link
+      key={item.href}
+      href={item.href}
+      className={`font-bold text-sm md:text-lg uppercase tracking-wide drop-shadow-md ${
+        pathname === item.href
+          ? "text-pink-600"
+          : "text-black hover:text-pink-600"
+      }`}
+    >
+      {item.label}
+    </Link>
+  ))}
+</div>
     </nav>
   );
 }
