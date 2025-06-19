@@ -83,6 +83,7 @@ export default function ContactPage() {
                 </svg>
               </span>
               <div className="flex flex-col">
+                <span className="text-black text-xs sm:text-sm">+62 889-2127-289</span>
                 <a
                   href="https://wa.me/628892127289?text=Halo%20saya%20tertarik%20bekerja%20dengan%20Anda"
                   target="_blank"
