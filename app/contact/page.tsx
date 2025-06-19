@@ -83,12 +83,13 @@ export default function ContactPage() {
                 </svg>
               </span>
               <div className="flex flex-col">
-                <span className="text-black text-xs sm:text-sm">+62 889-212-7289</span>
                 <a
-                  href="tel:+628892127289"
+                  href="https://wa.me/628892127289?text=Halo%20saya%20tertarik%20bekerja%20dengan%20Anda"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block mt-1 bg-pink-400 text-white text-xs px-4 sm:px-5 py-1 rounded-full font-semibold shadow hover:bg-pink-500 transition w-fit"
                 >
-                  PHONE
+                  Phone
                 </a>
               </div>
             </div>
