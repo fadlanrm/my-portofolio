@@ -89,14 +89,16 @@ export default function AboutPage() {
               <div className="font-bold text-sm sm:text-base">Administrator</div>
               <div className="text-gray-600 text-xs sm:text-sm mb-1">Full-time</div>
               <div className="text-gray-500 text-xs sm:text-sm mb-1">Sept. 2020 - Present</div>
-              <ul className="list-decimal ml-5 text-xs sm:text-sm text-gray-700 mb-2">
-                <li>Administrative personnel management tasks, such as:</li>
+              <div className="text-xs sm:text-sm text-gray-700 font-semibold mb-1">
+                Administrative personnel management tasks, such as:
+              </div>
+              <ol className="list-decimal ml-5 text-xs sm:text-sm text-gray-700 mb-2">
                 <li>Recording information for incoming and outgoing document</li>
                 <li>Compiling the list of outgoing document deliveries</li>
                 <li>Managing Google Drive documents for document receipts</li>
                 <li>Organizing document archives, monitoring all document-related activities, and ensuring everything runs smoothly</li>
                 <li>Performing or assisting with other requested tasks</li>
-              </ul>
+              </ol>
             </div>
             {/* Network Administrator */}
             <div className="relative mb-4 z-10">
@@ -104,14 +106,16 @@ export default function AboutPage() {
               <div className="font-bold text-sm sm:text-base">Network Administrator</div>
               <div className="text-gray-600 text-xs sm:text-sm mb-1">Internship</div>
               <div className="text-gray-500 text-xs sm:text-sm mb-1">Sep. 2023 - Des. 2023</div>
-              <ul className="list-decimal ml-5 text-xs sm:text-sm text-gray-700 mb-2">
-                <li>Performing network tasks such as:</li>
+              <div className="text-xs sm:text-sm text-gray-700 font-semibold mb-1">
+                Performing network tasks such as:
+              </div>
+              <ol className="list-decimal ml-5 text-xs sm:text-sm text-gray-700 mb-2">
                 <li>Assisting with the installation and configuration of network devices, such as routers, switches, and access points.</li>
                 <li>Monitoring network traffic and performance to detect and report issues or disruptions.</li>
                 <li>Implementing and managing network security rules, including firewalls, VLANs, and ACLs.</li>
                 <li>Providing technical support to end users regarding network and connectivity issues.</li>
                 <li>Assisting in documenting network configurations and creating updated network topology documentation.</li>
-              </ul>
+              </ol>
               <a
                 href="/certificate/cert-birosdm-magang.pdf"
                 target="_blank"
